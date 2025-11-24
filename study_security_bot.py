@@ -13,7 +13,7 @@ ADMIN_GROUP_ID = -5083806344     # ← CHANGE TO YOUR ADMIN GROUP ID
 BAD_WORDS = ['fuck','chut','bc','mc','gandu','randi','loda','bhosdike','madarchod','behenchod','shit','asshole','cunt']
 
 # Permanent DB path (works with Render disk)
-DB_NAME = '/opt/render/project/study_security.db'   # ← THIS IS THE MAGIC LINE
+DB_NAME = '/app/data/study_security.db'   # ← THIS IS THE MAGIC LINE
 
 logging.basicConfig(level=logging.INFO)
 
